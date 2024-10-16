@@ -180,3 +180,38 @@ h1, h2, h3, h4, h5, h6 {
     background: url(../img/hero-bg.jpg);
     background-size: cover;
 }
+
+#hero::before {
+    content: "";
+    background: rgba(255, 245, 245, 0.247);
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+#hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgb(0, 0, 0);
+}
+
+#hero p {
+    color: rgb(0, 0, 0);
+    margin-bottom: 2px;
+    font-size: 24.5px;
+}
+
+#hero p span {
+    color: rgb(0, 0, 0);
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+} 
