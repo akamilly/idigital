@@ -271,7 +271,6 @@ section {
 .section-title p {
     margin-bottom: 0;
     color: rgb(0, 0, 0);
-    font-size: ;
 }
 
 /* #About */
@@ -290,4 +289,21 @@ section {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+}
+
+.about .content ul strong {
+    margin-right: 10px;
+    color: #000000;
+    font-weight: 5000;
+}
+
+.about .content ul span {
+    color: #000000;
+}
+
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    line-height: 0;
 }
